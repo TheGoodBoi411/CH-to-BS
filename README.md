@@ -1,5 +1,5 @@
 # CH-to-BS
-Convert a Clone Hero `notes.chart`'s properties into an `Info.dat` file.
+Convert a Clone Hero `notes.chart`'s properties into an `Info.dat` file. This does not, and never will, create a map from a chart.
 ## Put `ch2bs.js` inside your chart folder and run it with node.js
 
 ### Input
@@ -9,7 +9,8 @@ Chart - TheGoodBoi
 ├── album.png
 ├── song.ogg
 ├── background.png
-└── song.ini
+├── song.ini
+└── ch2bs.js
 ```
 ### Output
 ```
@@ -20,7 +21,8 @@ Map Folder
 ```
 
 ## Todo:
-- [ ] Add a config
+- [x] Add a config
+- [ ] Update for v3
 - [ ] Add BPM changes
 - [ ] Add some way to convert lyric events to a SW file
 
